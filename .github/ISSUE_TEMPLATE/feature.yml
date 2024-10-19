@@ -1,0 +1,20 @@
+name: "Feature"
+description: "기능 개발 이슈 템플릿"
+labels: "Feature"
+body:
+  - type: textarea
+    attributes:
+      label: 개발 내용
+      description: 개발할 내용을 자세히 적어주세요
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 기능 ADT
+      description: 개발할 기능의 ADT와 설명을 작성해 주세요
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Note
+      description: 개발이나 사용에 필요한 설명을 작성해 주세요
